@@ -13,10 +13,10 @@ function showToast(msg){
     toastBox.appendChild(toast);
 
     if(msg.includes('error')){
-        toast.classList.add('error');
+        toast.classList.add('error');   // To add red color
     }
     if(msg.includes('Invalid')){
-        toast.classList.add('Invalid');
+        toast.classList.add('Invalid'); // To add yellow color
     }
 
     setTimeout(()=>{
